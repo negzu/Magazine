@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Group 8: Landing Pages</title>
+    </title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <header>
+<div style="display:flex;">
+    <div style="width:20%">
+<a href="index.html"><img src="images/Logo.png" alt="Group 8 Logo" title="Group 8 Logo" width="200px" style="margin-top:10px;"></a>
+    </div>
+    <nav style="width:80%;text-align:right">
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="About.html"><li>About Us</li></a>
+            <a href="Lifestyle.html"><li>Lifestyle</li></a>
+            <a href="Sports.html"><li>Sports</li></a>
+            <a href="Business.html"><li>Business</li></a>
+            <a href="Contact Us.html"><li style="background-color:rgb(163, 9, 9);color:white">Contact Us</li></a>
+        </ul>
+    </nav>
+</div>
+    </header>
+    <main>
+<div style="padding-top:60px" class="contact">
+    <div>
+        <h2 style="text-align: center;color:white">Get in touch!</h2>
+        <div>
+        <form style="margin:0% auto auto; padding: 0% 20% 5%;">
+            <table>
+                <tr>
+                    <td><input type="text" name="name" placeholder="Name"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="email" placeholder="E-mail"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="phone" placeholder="Phone Number"></td>
+                </tr>
+                <tr>
+                    <td><textarea rows="5" name="message" placeholder="Message" style="width:100%"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="nolines"><input type="submit" name="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    </div>
+</div>
+<div style="margin:-6px auto;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8599.422554222792!2d119.31340955001865!3d11.151581243557512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33b6538b4462afc3%3A0x27d62b6818064df2!2sEl%20Nido%20Resorts%20-%20Miniloc%20Island!5e0!3m2!1sen!2sph!4v1625799653413!5m2!1sen!2sph" width="100%" height="350px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+</main>
+    <footer style="color:rgb(199, 199, 199); text-align: center;padding:1% 10%;">
+        <div style="margin:auto">
+            <a href="index.html"><img src="images/Footer.png" alt="Footer Logo" title="Footer Logo" width="200px" style="margin-top:10px;"></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <p class="socials"><a href=""><img src="images/FB.png" alt="Facebook" title="Facebook" width="40px"></a><a href=""><img src="images/IG.png" alt="Instagram" title="Instagram" width="40px"></a><a href=""><img src="images/LinkedIn.png" alt="LinkedIn" title="LinkedIn" width="40px"><img src="images/Twitter.png" alt="" title="" width="40px"></a></p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+        </div>
+        <hr />
+        <div>
+            <p>Copyright © 2021 Group 8. All Right Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+<style>
+   header {
+        border-width: 0 0 1px 0;
+        box-shadow: 0 0 2px 3px rgb(0 0 0 / 6%);
+        position: fixed;
+        z-index: 99;
+        background: white;
+        width: 100%;
+    }
+    body {
+        font-family:poppins;
+        margin:0px;
+        color:#333;
+        background:grey;
+
+    }
+    nav li{
+        text-transform: uppercase;
+        color:rgb(163, 9, 9);
+        font-weight:600;
+        transition:0.3s ease;
+        display:inline;
+        padding:20px 25px 25px; 
+        margin: 0 -3px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    nav li:visited, nav li:hover, nav li:active{ 
+        background-color:rgb(163, 9, 9);
+        color:white; 
+    }
+
+    .contact {
+    background-image: linear-gradient(
+0deg
+, rgb(112 5 5) 0%, rgb(92 4 4 / 90%) 45%),url(images/img3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type="text"], textarea {
+    width: 500px!important;
+    padding: 20px 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 1% auto;
+}
+
+input[type="submit"] {
+        background-color:#131d2db8;
+        color:white;
+        padding: 15px 30px;
+        width:30%;
+        border-radius:50px;
+        float:right;
+        border:none!important;
+        transition: 0.3s ease-out;
+        outline:none;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    input[type="submit"]:hover {
+        transform:scale(0.8)
+    }
+
+    .contact h2 {
+    margin: 7% auto 3%;
+}
+
+
+footer p {
+        font-size: 14px;
+        font-weight:400;
+        width:80%;
+        margin:auto;
+         }
+
+    .socials img {
+    padding: 20px 8px;
+    transition: 0.4s ease-out;
+    }
+
+    .socials img:hover {
+        transform:scale(0.80);
+    }
+
+ hr {
+     border-color: #964747;
+ }
+
+
+ footer {
+    background-image: linear-gradient(
+0deg
+, rgb(112 5 5 / 80%) 5%, rgb(0 0 0 / 40%) 75%),url(images/footer-bg.png);
+}
+
+footer a {
+    color:white;
+}
+
+footer a:hover {
+    text-
+    decoration: underline;
+}
+
+table {
+    margin:auto;
+
+}
+
+
+
+</style>
